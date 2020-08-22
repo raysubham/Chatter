@@ -10,17 +10,6 @@ import Login from "./login/login";
 import Signup from "./signup/signup";
 import Dashboard from "./dashboard/dashboard";
 
-firebase.initializeApp({
-  apiKey: "AIzaSyB15oeLj7VNbORMUVxXlgDlTnObv1swhXk",
-  authDomain: "chatter-00.firebaseapp.com",
-  databaseURL: "https://chatter-00.firebaseio.com",
-  projectId: "chatter-00",
-  storageBucket: "chatter-00.appspot.com",
-  messagingSenderId: "1008718892813",
-  appId: "1:1008718892813:web:39ebcf30b337030e52aa44",
-  measurementId: "G-GEDRQ5KRDS",
-});
-
 const routing = (
   <Router>
     <div id="route-container">
